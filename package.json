@@ -13,10 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PranithaAmruthaVeldanda/personal-budget/issues"
-  },
-  "homepage": "https://github.com/PranithaAmruthaVeldanda/personal-budget#readme",
+
   "dependencies": {
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
