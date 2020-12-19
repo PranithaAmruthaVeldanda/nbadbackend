@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 3000;
 const bodyParser = require('body-parser');
+const port = process.env.PORT || 3000;
 const mongoose  = require('mongoose');
 const budgetModel = require('./models/budgetModel');
 const router = express.Router();
@@ -39,7 +39,7 @@ app.use((req,res,next)=>{
 
 
 app.listen(port, () => {
-    console.log(`API served at http://104.236.20.9:${port}`);
+    console.log(`API served at ${port}`);
 });
 
 
