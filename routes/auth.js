@@ -9,7 +9,7 @@ const cors = require('cors');
 router.use(cors());
 
 const accessTokenKey = 'My super secret key';
-const refreshKey = "Refresh token key"
+
 
 const jwtMW = exjwt({
     secret: accessTokenKey,

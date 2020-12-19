@@ -26,6 +26,6 @@ const budgetSchema = mongoose.Schema({
     }
 },{collection : 'budget'})
 
-const budgetModel = mongoose.model('task',budgetSchema);
+const budgetModel = mongoose.model('budget',budgetSchema);
 
 module.exports = budgetModel;
